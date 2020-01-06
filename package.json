@@ -1,0 +1,22 @@
+{
+  "name": "bear-template-daily-log",
+  "version": "0.0.1",
+  "description": "Template for a normal working day",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bear",
+    "alfred",
+    "alfredapp",
+    "alfred-bear",
+    "workflow",
+    "template"
+  ],
+  "author": "Jan Meischner",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^0.11.1"
+  }
+}
