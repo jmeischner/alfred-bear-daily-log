@@ -1,9 +1,9 @@
-# Daily Log - {date:dd. MMM YYYY}
+# {{today}}
 ---
-#work/daily/{date: YYYY/MM/dd}
+#daily-log/{date: YYYY/MM/dd}
 ---
-- [ ] Check what's open from [[Daily Log - {date-{{lastWorkday}}D:dd. MMM YYYY}]]
-
+::[[{{last}}]]:: <- -> ::[[{{next}}]]::
+---
 ## Short Review
 
 
@@ -14,7 +14,7 @@
 ::[Fantastical](x-fantastical2://show/mini/{date:yyyy-MM-dd})::
 
 
-## Quick Thoughts During the Day
+## Notes
 
 
 ## Plan

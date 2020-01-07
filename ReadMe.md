@@ -9,8 +9,10 @@ This script part of this template basically checks if it's monday or another day
 With the *Panic Mode* theme it could look like
 ![Screenshot](https://github.com/jmeischner/alfred-bear-daily-log/blob/public/screenshot.png?raw=true)
 
-## Possible Placeholder
-- lastWorkday
+## Possible Placeholders
+- today
+- next
+- last
 
 # Installation
 Clone or download this repository and put it e.g. into your *bearTemplateDirectory* - `~/.bear-templates` - which is usually the place where your *bearTemplateIndex* - `index.yml` - file is located.
@@ -23,6 +25,8 @@ Then put the following lines to your *index.yml*
     file: "<PathToRepo>/Daily Log.md"
     script: "<PathToRepo>/script.js"
     newWindow: <DisplayInANewWindow>
+    var:
+      DATE_FORMAT: "<DateFormat>"
 ```
 
 ### Variables
@@ -31,3 +35,6 @@ Path where you put the source code of this repository to. Either absolute or rel
 
 **DisplayInANewWindow**
 Should the note be displayed in a new bear window.
+
+**DateFormat**
+The date format for the note title. For the title of the screenshot it was `ddd., DD MMM. YYYY` used. For more information see [the docs](https://www.npmjs.com/package/date-and-time#api).
