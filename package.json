@@ -17,6 +17,6 @@
   "author": "Jan Meischner",
   "license": "ISC",
   "dependencies": {
-    "date-and-time": "^0.11.1"
+    "date-and-time": "^0.14.2"
   }
 }
